@@ -80,7 +80,7 @@ Run the following commands to install the base requirements and lock the Gradio 
 
 ```bash
 pip install -r requirements.txt
-pip install "gradio==3.50.2" "fastapi==0.104.1" "starlette==0.27.0" "pydantic<2.0.0" "jinja2==3.1.2" "markupsafe==2.1.3"
+pip install "gradio==3.50.2" "fastapi==0.104.1" "starlette==0.27.0" "pydantic<2.0.0" "jinja2==3.1.2" "markupsafe==2.1.3" xformers "huggingface_hub<1.0.0"
 
 ```
 
